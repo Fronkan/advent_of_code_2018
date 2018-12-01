@@ -26,5 +26,10 @@ def puzzel2():
             freqs.append(freq)
             idx += 1
 
+def puzzel1_short_solution():
+    print(sum([int(line) for line in open("day1_data.txt")]))
+
+
 if __name__ == "__main__":
-    puzzel2()
+    puzzel1()
+    puzzel1_short_solution()
