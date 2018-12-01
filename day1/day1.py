@@ -33,3 +33,4 @@ def puzzel1_short_solution():
 if __name__ == "__main__":
     puzzel1()
     puzzel1_short_solution()
+    puzzel2()
