@@ -29,10 +29,6 @@ function puzzel2()
                 notFound = false
                 print(freq)
                 break
-                
-            --elseif freq > val then
-            --    table.insert( freqs, i+1, freq)
-            --    break
             end
         end
         table.insert( freqs,freq)
